@@ -1,0 +1,28 @@
+.pics{
+    display: flex;
+    text-align: center;
+    justify-content: space-between; /*space between imag*/
+    color: white;
+    
+}
+
+.pic-1{
+    background-image: url(images/image-background-card1.jpg);
+    background-size: cover;
+    width: 30%;
+    height: 250px; /* by "order:1" command we may change the placemant of image on the screen*/
+}
+
+.pic-2{
+    background-image: url(images/image-background-card2.jpg);
+    background-size: cover;
+    width: 30%;
+    height: 250px;
+}
+
+.pic-3{
+    background-image: url(images/image-background-card3.jpg);
+    background-size: cover;
+    width: 30%;
+    height: 250px;
+}
